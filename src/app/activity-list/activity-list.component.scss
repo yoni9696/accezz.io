@@ -1,0 +1,30 @@
+#activities-list-header {
+  margin: 0;
+}
+
+.activities-list {
+  position: static;
+  margin: 10px 10px 50px 0;
+  flex-direction: column;
+  padding: 10px 10PX 10PX;
+  background-color: transparent;
+  border-radius: 5%;
+}
+
+#sidebar {
+  display: flex;
+  max-height: 80%;
+  justify-content: center;
+  align-self: center;
+}
+@media screen and (min-width: 1000px) {
+  .activities-list {
+    position: fixed;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .activities-list {
+    background-color: rgba(195, 195, 195, 0.36);
+  }
+}

@@ -1,0 +1,26 @@
+#container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  flex-direction: column;
+
+}
+
+#links-list {
+  margin: 0;
+  display: flex;
+  flex-basis: 80%;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+#sidebar {
+  display: flex;
+  flex-basis: 20%;
+  justify-content: center;
+}
+
+@media screen and (min-width: 700px) {
+  #container {
+    flex-direction: row;
+  }
+}

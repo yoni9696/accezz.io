@@ -1,0 +1,24 @@
+#navbar {
+  display: inline-flex;
+  background-color: black;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+#nav-header {
+  font-size: 22px;
+}
+
+.navbar-child {
+  margin: 0;
+  padding: 15px;
+  font-size: 14px;
+  text-align: center
+}
+
+#navbar-right {
+  display: flex;
+  margin-left: auto;
+}

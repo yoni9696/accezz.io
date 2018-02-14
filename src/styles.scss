@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  color: aliceblue;
+  background: url('/images/back_img.jpg') no-repeat;
+  background-size: cover;
+}
+
+.small-font {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.blue-font {
+  color: #0091d1
+}
+
+.text-center {
+  text-align: center;
+}
